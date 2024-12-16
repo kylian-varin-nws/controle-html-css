@@ -1,10 +1,22 @@
 :root {
   /*Colors*/
-  --color-black: #303031;
-  --color-gray: #66645e;
-  --color-gray-medium: #f4f0ea;
+  --color-black: #18191F;
+  --color-neutral-black:#263238;
+  --color-Neutral-D_Grey: #4D4D4D;
+  --color-Neutral-Grey:#717171;
   --color-gray-light: #f9f9f9;
-  --color-white: #ffffff;
-  --color-primary: #71a894;
-  --color-secondary: #f5c64f;
+  --color-Neutral-White: #FFFFFF;
+  --color-Neutral-silver: #F5F7FA;
+  --color-brand-primary:#4CAF4F;
+
+/* Fonts */
+--font-family-heading: "Inter", serif;
+
+/* font size */
+--font-size-base: clamp(0.75rem, 0.875rem + 0.1vw, 1.125rem);
+--font-size-lg: clamp(1.5rem, 1.75rem + 0.15vw, 2rem);
+--font-size-xl: clamp(1.75rem, 2.25rem + 0.2vw, 2.75rem);
+--font-size-2xl: clamp(3rem, 4rem + 0.25vw, 5rem);
+
+
 }
