@@ -18,5 +18,49 @@
 --font-size-xl: clamp(1.75rem, 2.25rem + 0.2vw, 2.75rem);
 --font-size-2xl: clamp(3rem, 4rem + 0.25vw, 5rem);
 
+/* Font weight */
+--font-weight-normal: 400;
+--font-weight-buttum: 500;
+--font-weight-title: 600;
+--font-weight-subtitle: 700;
 
+ /* Radius */
+ --radius-sm:0.25rem ;
+ --radius-mm:0.375 ;
+ --raduis-lm:0.5 ;
+
+ /* Spacing */
+ --spacing-5xs: 0.5rem;
+ --spacing-4xs: 0.625rem;
+ --spacing-3xs: 0.875rem;
+ --spacing-2xs: 0.938rem;
+ --spacing-xs: 1rem;
+ --spacing-s: 2rem;
+ --spacing-2s: 2.5rem;
+ --spacing-3s: 2.625rem;
+ --spacing-4s: 3rem;
+ --spacing-md: 3.125rem;
+ --spacing-lg: 6.5rem;
+ --spacing-xl: 7.813rem;
+ --spacing-2xl: 9.063;
+
+/*  height */
+--height-block1: 16.25rem;
+--height-block2: 1.5em;
+--height-block3: 2.5rem;
+
+
+/* width */
+--wight-block1: 18.688rem;
+--wight-block2: 90rem;
+
+}
+
+/* BASE */
+
+button{
+  top: 14px;
+  right: 32px;
+  bottom: 14px;
+  left: 32px;
 }
