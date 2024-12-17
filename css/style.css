@@ -53,6 +53,7 @@
 /* width */
 --wight-block1: 18.688rem;
 --wight-block2: 90rem;
+--wight-base: 90.063rem;s
 
 }
 
@@ -72,6 +73,11 @@ header {
 
 }
 
+main{
+  width: 90.063rem;
+  height: 125.713rem;
+}
+
 button {
   top: 0.625rem;
   right: 1.25rem;
@@ -80,8 +86,13 @@ button {
   gap: var(--spacing-4xs);
   border-radius: 0.375rem;
   border-style: none;
+  font-weight: var(--font-weight-buttum);
+  size: var(--font-size-base);
+  align-content: center;
+  line-height: 1.25rem;
   
 }
+
 
 
 /*layout*/
@@ -138,6 +149,7 @@ a {
   height: 2.5rem;
   color: var(--color-brand-primary);
   background-color: var(--color-Neutral-silver);
+  
 }
 
 .sign-up{
@@ -145,7 +157,22 @@ a {
   height: 2.5rem;
   background-color: var(--color-brand-primary);
   color: white;
-  
 }
 
+/*Main*/
 
+/*body*/
+
+.body {
+  width:var(--wight-base) ;
+  height: 65.938rem;
+  gap: var(--spacing-2s);
+}
+/*hero section*/
+
+.hero-section {
+  height: 37.438rem;
+  gap:var(--spacing-4xs) ;
+  padding: 6rem 9rem 6rem 9rem;
+  background-color: var(--color-Neutral-silver) 
+}
