@@ -57,10 +57,71 @@
 }
 
 /* BASE */
+body {
+  width: 90rem;
+  height: 168.188rem;
+  font-family: var(--font-family-heading);
+  background-color: var(--color-Neutral-White);
+}
+header {
+  display: flex;
+  background-color: var(--color-Neutral-silver);
+  align-items: center;
+  width: 90.063rem;
+  height: 5.25rem;
 
+}
 button{
   top: 14px;
   right: 32px;
   bottom: 14px;
   left: 32px;
 }
+
+
+/*layout*/
+
+a {
+  text-decoration: none;
+  color: #18191F;
+  line-height: 1.5rem;
+
+}
+/*componant*/
+
+
+
+/*header*/
+
+.logo{
+  padding: 30px 145px 30px 105px;
+  right: 7rem;
+}
+
+.nav-header {
+  display: flex;
+  width: 588px;
+  height: 24px;
+  gap: var(--spacing-md);
+  list-style: none;
+  top: 30px;
+  left: 404.49px;
+  
+ 
+}
+
+.nav-header-spécifique {
+  gap: 134px;
+}
+
+.dos-buttom {
+  width: 100vh;
+  gap: var(--spacing-3xs);
+  padding-left: 121.51px;
+  padding-right: 145px;
+  padding-top: 22px;
+  padding-bottom: 22px;
+  align-items: center;
+
+  
+} 
