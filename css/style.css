@@ -189,7 +189,7 @@ span{
 .texte {
   width:41.125rem;
   height: 12rem;
-  gap: var(--spacing-xs);
+  gap: var(--spacing-xs) ;
 
 }
 
@@ -201,4 +201,16 @@ span{
   font-weight: var(--font-weight-title);
   white-space: nowrap;
   
+  }
+
+  .buttom-registers {
+    width: 8rem;
+    height: 3.25em; ;
+    
+
+  }
+
+  .dos-buttom-registers{
+    padding: 24.094rem 73.063rem 10.094rem 9rem;
+
   }
