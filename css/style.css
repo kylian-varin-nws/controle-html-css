@@ -13,9 +13,9 @@
 --font-family-heading: "Inter",sans-serif;
 
 /* font size */
---font-size-base: clamp(0.75rem, 0.875rem + 0.1vw, 1.125rem); /*16px*/
---font-size-lg: clamp(1.5rem, 1.75rem + 0.15vw, 2rem);
---font-size-xl: clamp(1.75rem, 2.25rem + 0.2vw, 2.75rem);
+--font-size-base: clamp(0.75rem, 0.875rem + 0.1vw, 1.125rem); /*14px*/
+--font-size-lg: clamp(1.5rem, 1.75rem + 0.15vw, 2rem);/*28PX*/
+--font-size-xl: clamp(1.75rem, 2.25rem + 0.2vw, 2.75rem);/*36px*/
 --font-size-2xl: clamp(3rem, 4rem + 0.25vw, 5rem); /*64px*/
 
 /* Font weight */
@@ -113,7 +113,13 @@ button {
   
 }
 
-
+footer {
+  display: flex;
+  flex-direction: column;
+  height: 554px;
+  gap: 42px;
+  padding-top: 42px ;
+}
 
 /*layout*/
 
@@ -450,3 +456,24 @@ h2 {
   height: 224px;
   text-align: left;
 }
+
+/*footer*/
+
+.frame-16 {
+  width: 1200px;
+  height: 364px;
+  gap: 32px;
+  background-color: var(--color-Neutral-silver);
+  padding-top: 64px;
+  padding-bottom: 64px;
+  margin:0 120px 0 120px ;
+  border-radius: var(--raduis-lm);
+
+}
+
+.title-frame-16{
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 64px 156.5px 148px 156.5px;
+  font-weight: var(--font-weight-title);
+  font-size: var(--font-size-2xl);
