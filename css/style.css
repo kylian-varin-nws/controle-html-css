@@ -274,7 +274,6 @@ h2 {
  }
 
  .community {
-  background-color: blue;
   text-align: center;
   
  }
@@ -330,6 +329,85 @@ h2 {
   margin-top: 16px;
 }
 
-.icon {
+.cards {
+  width: 299px;
+  height: 280px;
+}
+
+/*body*/
+
+.body{
+  height:914.4px ;
+  background-color: #f9f9f9;
+  gap: 48px;
+  padding-top: 42px;
+  padding-bottom: 42px;
+  display: flex;
+  flex-direction: column;
+}
+
+/*unlock*/
+
+.unlock-general{
+  height: 433px;
+  background-color: red;
+ 
+}
+
+
+.unlock {
+  display: flex;
+  justify-items: space-between;
+  padding-left: 144px;
+  padding-right: 144px;
+  gap: 32px;
+  height: 433px;
+}
+
+.frame-35 {
+  width: 442px;
+  height: 433px;
+}
+
+.frame-6 {
+  display: flex;
+  flex-direction: column;
+  width: 661px;
+  height: 268px;
+  margin-top: 82.5px;
+  margin-bottom: 82.5px;
+}
+
+.frame-5 {
+  gap: 16px;
+  width: 601px;
+  text-align: left;
+
+}
+
+.text-frame{
+  text-align: left;
+  gap: 16px;
+  color: var(--color-Neutral-D_Grey);
   
+}
+
+.description-frame{ 
+  font-weight: var(--font-weight-normal);
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--color-Neutral-Grey);
+
+}
+
+.label{
+  width: 151px;
+  height: 52px;
+  background-color: var(--color-brand-primary);
+  color: var(--color-Neutral-White);
+  border-radius: var(--radius-sm);
+  line-height: 24px;
+  font-size: 16px;
+
+
 }
