@@ -127,14 +127,7 @@ h3 {
 }
 
 .card {
-  border-radius:var(--raduis-lm) ;
-  gap:var(--spacing-5xs) ;
-  width: 18.688rem;
-  justify-items: center;
-  text-align: center;
-  background-color: #717171;
-  padding: 24px 32px;
-  height: var(--height-block1);
+  
 }
 
 
@@ -257,4 +250,3 @@ h3 {
   /*community général*/
 
  
-  
