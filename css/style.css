@@ -26,8 +26,8 @@
 
  /* Radius */
  --radius-sm:0.25rem ;
- --radius-mm:0.375 ;
- --raduis-lm:0.5 ;
+ --radius-mm:0.375rem;
+ --raduis-lm:0.5rem ;
 
  /* Spacing */
  --spacing-5xs: 0.5rem;
@@ -111,11 +111,33 @@ a {
 span{
   color:var(--color-brand-primary) ;
 }
+
+h3 {
+  text-decoration: none;
+  list-style: none;
+  text-align: center;
+  font-size:28px ;
+  font-weight: var(--font-weight-subtitle);
+  line-height: 2.25rem;
+}
 /*componant*/
 
 .cinquante-weight {
   font-weight: var(--font-weight-buttum)!important;
 }
+
+.card {
+  border-radius:var(--raduis-lm) ;
+  gap:var(--spacing-5xs) ;
+  width: 18.688rem;
+  justify-items: center;
+  text-align: center;
+  background-color: #717171;
+  padding: 24px 32px;
+  height: var(--height-block1);
+}
+
+
 
 /*header*/
 
@@ -234,10 +256,5 @@ span{
 
   /*community général*/
 
-  .community-general {
-    display: flex;
-    flex-direction: column;
-    gap: var(--spacing-xs);
-    width: var(--wight-block2);
-    height: 26rem;
-  }
+ 
+  
