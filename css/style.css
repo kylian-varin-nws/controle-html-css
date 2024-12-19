@@ -13,7 +13,7 @@
 --font-family-heading: "Inter",sans-serif;
 
 /* font size */
---font-size-base: clamp(0.75rem, 0.875rem + 0.1vw, 1.125rem);
+--font-size-base: clamp(0.75rem, 0.875rem + 0.1vw, 1.125rem); /*16px*/
 --font-size-lg: clamp(1.5rem, 1.75rem + 0.15vw, 2rem);
 --font-size-xl: clamp(1.75rem, 2.25rem + 0.2vw, 2.75rem);
 --font-size-2xl: clamp(3rem, 4rem + 0.25vw, 5rem); /*64px*/
@@ -55,12 +55,15 @@
 --wight-block2: 90rem;
 --wight-base: 90.063rem;
 
+/*padding*/
+--padding-long-buttum: 0.875rem 2rem 0.875rem 8rem;
+
 }
 
 /* BASE */
 body {
-  width: 90rem;
-  height: 168.188rem;
+  max-width: 90rem;
+  max-height: 168.188rem;
   font-family: var(--font-family-heading);
   background-color: var(--color-Neutral-White);
 }
@@ -74,7 +77,7 @@ header {
 }
 
 main{
-  width: 90.063rem;
+  width : 90.063rem;
   height: 125.713rem;
 
 }
@@ -88,9 +91,10 @@ button {
   border-radius: 0.375rem;
   border-style: none;
   font-weight: var(--font-weight-buttum);
-  size: var(--font-size-base);
+  font-size: var(--font-size-base);
   align-content: center;
   line-height: 1.25rem;
+  
   
 }
 
@@ -174,22 +178,26 @@ span{
 /*hero section*/
 
 .hero-section {
+  width: 90.063rem;
   height: 37.438rem;
   gap:var(--spacing-4xs) ;
-  padding: 6rem 9rem 6rem 9rem;
   background-color: var(--color-Neutral-silver) 
 }
 
 .frame-1{
+  display: flex;
   width:41.125rem ;
   height: 17.25rem;
-  gap: var(--spacing-2s);
+  gap: var(--spacing-lg);
+  padding: 6rem 9rem 6rem 9rem;
 }
 
+/*texte*/
 .texte {
   width:41.125rem;
   height: 12rem;
   gap: var(--spacing-xs) ;
+
 
 }
 
@@ -205,12 +213,31 @@ span{
 
   .buttom-registers {
     width: 8rem;
-    height: 3.25em; ;
-    
+    height: 3.25em; 
+    background-color: var(--color-brand-primary);
+    color: var(--color-Neutral-White);
+    border-radius: 0.25rem;
+    line-height: 1.5rem;
 
   }
 
   .dos-buttom-registers{
     padding: 24.094rem 73.063rem 10.094rem 9rem;
+    
+  }
 
+  /*illustration*/
+  .illustration {
+    height: 25.438rem;
+    width: 24.438rem;
+  }
+
+  /*community général*/
+
+  .community-general {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-xs);
+    width: var(--wight-block2);
+    height: 26rem;
   }
