@@ -44,6 +44,11 @@
  --spacing-xl: 7.813rem;
  --spacing-2xl: 9.063;
 
+/* shadow */
+--shadow-md: 0 2px 4px 0 #abbed1;
+
+ 
+
 /*  height */
 --height-block1: 16.25rem;
 --height-block2: 1.5em;
@@ -67,11 +72,14 @@
 }
 
 /* BASE */
+html,
 body {
   max-width: 90rem;
   max-height: 168.188rem;
   font-family: var(--font-family-heading);
   background-color: var(--color-Neutral-White);
+  margin: 0;
+  padding: 0;
 }
 header {
   display: flex;
@@ -118,7 +126,12 @@ span{
   color:var(--color-brand-primary) ;
 }
 
-
+h2 {
+  font-weight: var(--font-weight-title);
+  font-size: 36px;
+  line-height: 44px;
+  text-align: center;
+}
 /*componant*/
 
 .cinquante-weight {
@@ -126,11 +139,16 @@ span{
 }
 
 .card {
-  
+  border-radius: 8px;
+  gap: 8px;
+  width: 299px;
+  height: 260px;
+  padding: 24px 32px 24px 32px;
+  text-align: center;
+  background-color: var(--color-Neutral-White);
+  box-shadow: var(--shadow-md);
+
 }
-
-
-
 /*header*/
 
 .logo{
@@ -249,25 +267,69 @@ span{
   /*community général*/
 
  .community-general {
-  width: 1440px;
-  height: 416px;
   gap: 16px;
-  background-color: antiquewhite;
+  background-color: var(--color-Neutral-White);
   display: flex;
   flex-direction: column;
  }
 
  .community {
-  height: 120px;
   background-color: blue;
   text-align: center;
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
+  
  }
 
+ .titre-community{
+  margin-bottom: 4px;
+ }
+.texte-community {
+  margin-top: 4px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.frame-4 {
+  display: flex;
+  height: 280px;
+  padding-left: 144px;
+  padding-right: 144px;
+  gap: 127px;
+}
+
+.membership-organizatios{
+  height: 260px;
+  display: flex;
+  flex-direction: column;
+}
+
+.member{
+  height: 144px;
+  gap: 16px;
+  font-size: 28px;
+  line-height: 36px;
+  align-content: center;
+  font-weight: 700;
+  text-align: center;
+  margin: 0;
+}
 
 
-.contaner-description {
+.frame-3 {
+  width: 251px;
+  height: 60px;
+  gap: 8px;
+  font-size: 14px;
+  color: var(--color-Neutral-Grey);
+  line-height: 20px;
 
+}
+
+.card-title {
+  font-weight: 700;
+  margin-bottom: 8px;
+  margin-top: 16px;
+}
+
+.icon {
+  
 }
