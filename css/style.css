@@ -93,6 +93,7 @@ header {
 main{
   width : 90.063rem;
   height: 125.713rem;
+  
 
 }
 
@@ -281,6 +282,7 @@ h2 {
  .titre-community{
   margin-bottom: 4px;
  }
+
 .texte-community {
   margin-top: 4px;
   font-size: 16px;
@@ -372,15 +374,24 @@ h2 {
 .frame-6 {
   display: flex;
   flex-direction: column;
-  width: 661px;
-  height: 268px;
+  gap: 32px;
+
+}
+
+.frame-6-spe{
   margin-top: 82.5px;
   margin-bottom: 82.5px;
+  width: 661px;
+  height: 268px;
+
 }
 
 .frame-5 {
+  display: flex;
+  flex-direction: column;
   gap: 16px;
   width: 601px;
+  height: 184px;
   text-align: left;
 
 }
@@ -389,6 +400,8 @@ h2 {
   text-align: left;
   gap: 16px;
   color: var(--color-Neutral-D_Grey);
+  margin-top: 0;
+  margin-bottom: 0;
   
 }
 
@@ -397,7 +410,7 @@ h2 {
   font-size: 14px;
   line-height: 20px;
   color: var(--color-Neutral-Grey);
-
+  margin: 0;
 }
 
 .label{
@@ -408,6 +421,32 @@ h2 {
   border-radius: var(--radius-sm);
   line-height: 24px;
   font-size: 16px;
+}
 
+/*calanders*/
 
+.calander{
+  height: 433.4px;
+  background-color: orange;
+}
+
+.calander-unlock{
+  display: flex;
+}
+
+.frame-6-spe-2{
+  margin-top: 62.7px ;
+  margin-bottom: 62.7px;
+  width: 661px;
+  height: 308px;
+
+}
+
+.frame-7{
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 601px;
+  height: 224px;
+  text-align: left;
 }
