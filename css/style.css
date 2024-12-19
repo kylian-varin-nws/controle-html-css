@@ -60,6 +60,12 @@
 
 }
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 /* BASE */
 body {
   max-width: 90rem;
@@ -112,14 +118,7 @@ span{
   color:var(--color-brand-primary) ;
 }
 
-h3 {
-  text-decoration: none;
-  list-style: none;
-  text-align: center;
-  font-size:28px ;
-  font-weight: var(--font-weight-subtitle);
-  line-height: 2.25rem;
-}
+
 /*componant*/
 
 .cinquante-weight {
@@ -249,4 +248,26 @@ h3 {
 
   /*community général*/
 
- 
+ .community-general {
+  width: 1440px;
+  height: 416px;
+  gap: 16px;
+  background-color: antiquewhite;
+  display: flex;
+  flex-direction: column;
+ }s
+
+ .community {
+  height: 120px;
+  background-color: blue;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+ }
+
+
+
+.contaner-description {
+
+}
