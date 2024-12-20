@@ -495,5 +495,28 @@ h2 {
     background-color: var(--color-neutral-black);
     height: 148px;
     padding: 64px 434px 64px 434px;
+    gap: 8px;
+
     
+  }
+
+  .company-info {
+    margin-top: 0;
+    margin-bottom: 0;
+    color: var(--color-Neutral-silver);
+    line-height: 20px;
+    font-size: var(--font-size-base);
+    font-weight: var(--font-weight-normal);
+   
+
+  }
+
+  .copyright{
+    margin-top: 0;
+    margin-bottom: 0;
+    color: var(--color-Neutral-silver);
+    line-height: 20px;
+    font-size: var(--font-size-base);
+    font-weight: var(--font-weight-normal);
+   
   }
