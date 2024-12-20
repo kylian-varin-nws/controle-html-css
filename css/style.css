@@ -464,8 +464,7 @@ h2 {
   height: 364px;
   gap: 32px;
   background-color: var(--color-Neutral-silver);
-  padding-top: 64px;
-  padding-bottom: 64px;
+  padding: 64px 156.5px 148px 156.5px;
   margin:0 120px 0 120px ;
   border-radius: var(--raduis-lm);
 
@@ -474,6 +473,27 @@ h2 {
 .title-frame-16{
   margin-top: 0;
   margin-bottom: 0;
-  padding: 64px 156.5px 148px 156.5px;
   font-weight: var(--font-weight-title);
   font-size: var(--font-size-2xl);
+  width: 887px;
+  height: 152px;
+  text-align: center;
+  color: var(--color-neutral-black);
+
+  } 
+  .spe-label{
+    margin-top: 32px;
+    margin-left: 366.5px;
+    margin-right: 366.5px;
+    width: 154px;
+    margin-bottom: 64px;
+    
+  }
+
+  .footer-big-4{
+    display: flex;
+    background-color: var(--color-neutral-black);
+    height: 148px;
+    padding: 64px 434px 64px 434px;
+    
+  }
