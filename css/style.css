@@ -365,7 +365,6 @@ h2 {
 
 .unlock {
   display: flex;
-  justify-items: space-between;
   padding-left: 144px;
   padding-right: 144px;
   gap: 32px;
