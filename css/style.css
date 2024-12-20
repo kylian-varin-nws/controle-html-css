@@ -275,7 +275,6 @@ h2 {
 
  .community-general {
   gap: 16px;
-  background-color: var(--color-Neutral-White);
   display: flex;
   flex-direction: column;
  }
@@ -346,7 +345,6 @@ h2 {
 
 .body{
   height:914.4px ;
-  background-color: #f9f9f9;
   gap: 48px;
   padding-top: 42px;
   padding-bottom: 42px;
@@ -358,7 +356,6 @@ h2 {
 
 .unlock-general{
   height: 433px;
-  background-color: red;
  
 }
 
@@ -432,7 +429,6 @@ h2 {
 
 .calander{
   height: 433.4px;
-  background-color: orange;
 }
 
 .calander-unlock{
